@@ -1,0 +1,13 @@
+<!-- <div class ="col-sm-2">
+    <label> INPUT </label>
+ <input type ="text" [(ngModel)] ="title" class="form-control">
+<p> <b>OUTPUT :  {{title}} </b></p>
+</div> -->
+<div class="container">
+    <div class="row">
+        <div class= "col-sm-12">
+            <p [ngStyle]="{backgroundColor: getcolour()}"
+            [ngClass]=" {online : serverstatus === 'online'}"> Server status is {{ serverstatus}}</p>
+        </div>
+    </div>
+</div>
